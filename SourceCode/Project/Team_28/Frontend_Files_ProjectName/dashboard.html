@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #5fc7bb;
+            padding: 20px;
+        }
+        .dashboard {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #9f72cf;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .dashboard h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .dashboard .summary {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .dashboard .summary .summary-item {
+            flex: 1;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+        }
+        .dashboard .summary .summary-item h3 {
+            margin-top: 0;
+        }
+        .dashboard .links {
+            text-align: center;
+        }
+        .dashboard .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #1620cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        .dashboard .links a:hover {
+            background-color: #1620cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard">
+        <h2>Welcome to Your Dashboard</h2>
+        
+        <div class="summary">
+            <div class="summary-item">
+                <h3>Total Tasks</h3>
+                <p>25</p>
+            </div>
+            <div class="summary-item">
+                <h3>Messages</h3>
+                <p>5 new</p>
+            </div>
+            <div class="summary-item">
+                <h3>Leaves</h3>
+                <p>2 pending</p>
+            </div>
+        </div>
+        
+        <div class="links">
+            <a href="#">View Tasks</a>
+            <a href="#">View Messages</a>
+            <a href="#">Apply for Leave</a>
+            <a href="#">Settings</a>
+        </div>
+    </div>
+</body>
+</html>
